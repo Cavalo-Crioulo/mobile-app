@@ -1,15 +1,28 @@
+// app/(tabs)/eventos.tsx  (ou app/(app)/(tabs)/eventos.tsx)
+import { useEffect, useState } from "react";
 import { View, Text, FlatList } from "react-native";
 import { getEventCalendar } from "@/mocks/fixtures";
 import { Card } from "@/components/ui/Card";
-import { useTranslation } from "react-i18next";
+
+type UIEvent = {
+  id: string;
+  title: string;
+  date: string;
+  city: string;
+  uf: string;
+};
 
 export default function EventosScreen() {
-  const { t } = useTranslation("common");
-  const events = getEventCalendar();
+  const [events, setEvents] = useState<UIEvent[]>([]);
+
+  useEffect(() => {
+    (async () => setEvents(await getEventCalendar()))();
+  }, []);
+
   return (
     <View className="flex-1 bg-background px-5 py-4">
       <Text className="text-2xl font-semibold text-foreground mb-4">
-        {t("events.title")}
+        Agenda
       </Text>
       <FlatList
         data={events}

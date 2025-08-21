@@ -66,3 +66,30 @@ export async function getHighlights() {
     noticia: noticias[0],
   };
 }
+
+// --- Util: formata data curta (ex.: 25/08 14:00) -----------------------------
+function formatDateShort(iso: string, locale = "pt-BR") {
+  const d = new Date(iso);
+  const dd = d.toLocaleDateString(locale, { day: "2-digit", month: "2-digit" });
+  const hh = d.toLocaleTimeString(locale, { hour: "2-digit", minute: "2-digit" });
+  return `${dd} ${hh}`;
+}
+
+// --- API mock: getEventCalendar ----------------------------------------------
+/**
+ * Retorna eventos já mapeados para o formato usado na tela:
+ * { id, title, date, city, uf }
+ */
+export async function getEventCalendar() {
+  return eventos.map((e) => {
+    // 'local' vem como "Cidade/UF"
+    const [city, uf] = (e.local ?? "").split("/");
+    return {
+      id: e.id,
+      title: e.titulo,
+      date: formatDateShort(e.data), // ex.: "12/09 18:00"
+      city: city?.trim() || "",
+      uf: uf?.trim() || "",
+    };
+  });
+}
