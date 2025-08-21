@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "Cavalo Crioulo",
+    "tabs": { "home": "Home", "events": "Events", "settings": "Settings" }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "email": "Email",
+      "password": "Password",
+      "cta": "Sign in"
+    },
+    "register": { "title": "Create account", "name": "Name", "cta": "Sign up" },
+    "forgot": { "title": "Reset password", "cta": "Send link" }
+  },
+  "home": {
+    "upcoming": "Upcoming streams",
+    "news": "News",
+    "highlights": "Highlights"
+  },
+  "events": { "title": "Schedule" },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "language_help": "Choose the app language"
+  },
+  "generic": { "share": "Share", "watch": "Watch" }
+}

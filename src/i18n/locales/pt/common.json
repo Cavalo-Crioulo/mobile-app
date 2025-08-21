@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "Cavalo Crioulo",
+    "tabs": { "home": "Início", "events": "Eventos", "settings": "Config" }
+  },
+  "auth": {
+    "login": {
+      "title": "Entrar",
+      "email": "E-mail",
+      "password": "Senha",
+      "cta": "Entrar"
+    },
+    "register": { "title": "Criar conta", "name": "Nome", "cta": "Cadastrar" },
+    "forgot": { "title": "Recuperar senha", "cta": "Enviar link" }
+  },
+  "home": {
+    "upcoming": "Próximas transmissões",
+    "news": "Notícias",
+    "highlights": "Highlights"
+  },
+  "events": { "title": "Agenda" },
+  "settings": {
+    "title": "Configurações",
+    "language": "Idioma",
+    "language_help": "Escolha o idioma do aplicativo"
+  },
+  "generic": { "share": "Compartilhar", "watch": "Assistir" }
+}
