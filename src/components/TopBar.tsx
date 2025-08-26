@@ -45,7 +45,7 @@ export function TopBar({
           h-14 flex-row items-center justify-between
           px-4 bg-surface
           border-b border-white/10
-          shadow-lg
+          shadow-md
         "
       >
         {/* Logo à esquerda */}
