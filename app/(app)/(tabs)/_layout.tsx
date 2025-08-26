@@ -1,36 +1,16 @@
+// app/(tabs)/_layout.tsx
 import { Tabs } from "expo-router";
-import { HomeIcon, CalendarIcon, SettingsIcon } from "lucide-react-native";
+import { BottomBar } from "@/components/BottomBar";
 
 export default function TabsLayout() {
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: "Home",
-          tabBarIcon: ({ color, size }) => (
-            <HomeIcon color={color} size={size} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="eventos"
-        options={{
-          title: "Eventos",
-          tabBarIcon: ({ color, size }) => (
-            <CalendarIcon color={color} size={size} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="settings"
-        options={{
-          title: "Configurações",
-          tabBarIcon: ({ color, size }) => (
-            <SettingsIcon color={color} size={size} />
-          ),
-        }}
-      />
+    <Tabs
+      screenOptions={{ headerShown: false }}
+      tabBar={(props) => <BottomBar {...props} />}
+    >
+      <Tabs.Screen name="home" options={{ title: "Início" }} />
+      <Tabs.Screen name="eventos" options={{ title: "Agenda" }} />
+      <Tabs.Screen name="settings" options={{ title: "Configurações" }} />
     </Tabs>
   );
 }

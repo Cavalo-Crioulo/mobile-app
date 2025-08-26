@@ -1,32 +1,52 @@
 {
-  "app": {
-    "name": "Cavalo Crioulo",
-    "tabs": { "home": "Inicio", "events": "Eventos", "settings": "Ajustes" }
-  },
-  "auth": {
-    "login": {
-      "title": "Iniciar sesión",
-      "email": "Correo",
-      "password": "Contraseña",
-      "cta": "Entrar"
+  "fields": {
+    "email": {
+      "label": "Email",
+      "placeholder": "you@email.com",
+      "a11y": "Email field"
     },
-    "register": {
-      "title": "Crear cuenta",
-      "name": "Nombre",
-      "cta": "Registrar"
-    },
-    "forgot": { "title": "Recuperar contraseña", "cta": "Enviar enlace" }
+    "password": {
+      "label": "Password",
+      "placeholder": "••••••••",
+      "a11y": "Password field",
+      "show": "Show password",
+      "hide": "Hide password"
+    }
   },
-  "home": {
-    "upcoming": "Próximas transmisiones",
-    "news": "Noticias",
-    "highlights": "Destacados"
+  "actions": {
+    "sign_in": "Sign in",
+    "signing_in": "Signing in..."
   },
-  "events": { "title": "Agenda" },
-  "settings": {
-    "title": "Ajustes",
-    "language": "Idioma",
-    "language_help": "Elige el idioma de la aplicación"
+  "links": {
+    "forgot_password": "Forgot password?",
+    "no_account": "Don't have an account?",
+    "register": "Create one"
   },
-  "generic": { "share": "Compartir", "watch": "Ver" }
+  "separator": {
+    "or": "Or"
+  },
+  "alerts": {
+    "login_error_title": "Sign-in error",
+    "try_again": "Please try again."
+  },
+  "toast": {
+    "login_success_title": "Success!",
+    "login_success_desc": "You are now signed in."
+  },
+  "oauth": {
+    "google": "Sign in with Google",
+    "facebook": "Sign in with Facebook",
+    "apple": "Sign in with Apple",
+    "integrate_google": "Integrate Supabase OAuth Google",
+    "integrate_facebook": "Integrate Supabase OAuth Facebook",
+    "integrate_apple": "Integrate OAuth Apple"
+  },
+  "a11y": {
+    "logo": "Cavalo Crioulo Logo"
+  },
+  "errors": {
+    "email_required": "Please enter your email",
+    "email_invalid": "Invalid email",
+    "password_min": "Password must be at least 6 characters"
+  }
 }

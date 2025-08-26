@@ -1,28 +1,52 @@
 {
-  "app": {
-    "name": "Cavalo Crioulo",
-    "tabs": { "home": "Home", "events": "Events", "settings": "Settings" }
-  },
-  "auth": {
-    "login": {
-      "title": "Sign in",
-      "email": "Email",
-      "password": "Password",
-      "cta": "Sign in"
+  "fields": {
+    "email": {
+      "label": "Email",
+      "placeholder": "you@email.com",
+      "a11y": "Email field"
     },
-    "register": { "title": "Create account", "name": "Name", "cta": "Sign up" },
-    "forgot": { "title": "Reset password", "cta": "Send link" }
+    "password": {
+      "label": "Password",
+      "placeholder": "••••••••",
+      "a11y": "Password field",
+      "show": "Show password",
+      "hide": "Hide password"
+    }
   },
-  "home": {
-    "upcoming": "Upcoming streams",
-    "news": "News",
-    "highlights": "Highlights"
+  "actions": {
+    "sign_in": "Sign in",
+    "signing_in": "Signing in..."
   },
-  "events": { "title": "Schedule" },
-  "settings": {
-    "title": "Settings",
-    "language": "Language",
-    "language_help": "Choose the app language"
+  "links": {
+    "forgot_password": "Forgot password?",
+    "no_account": "Don't have an account?",
+    "register": "Create one"
   },
-  "generic": { "share": "Share", "watch": "Watch" }
+  "separator": {
+    "or": "Or"
+  },
+  "alerts": {
+    "login_error_title": "Sign-in error",
+    "try_again": "Please try again."
+  },
+  "toast": {
+    "login_success_title": "Success!",
+    "login_success_desc": "You are now signed in."
+  },
+  "oauth": {
+    "google": "Sign in with Google",
+    "facebook": "Sign in with Facebook",
+    "apple": "Sign in with Apple",
+    "integrate_google": "Integrate Supabase OAuth Google",
+    "integrate_facebook": "Integrate Supabase OAuth Facebook",
+    "integrate_apple": "Integrate OAuth Apple"
+  },
+  "a11y": {
+    "logo": "Cavalo Crioulo Logo"
+  },
+  "errors": {
+    "email_required": "Please enter your email",
+    "email_invalid": "Invalid email",
+    "password_min": "Password must be at least 6 characters"
+  }
 }

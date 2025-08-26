@@ -1,28 +1,52 @@
 {
-  "app": {
-    "name": "Cavalo Crioulo",
-    "tabs": { "home": "Início", "events": "Eventos", "settings": "Config" }
-  },
-  "auth": {
-    "login": {
-      "title": "Entrar",
-      "email": "E-mail",
-      "password": "Senha",
-      "cta": "Entrar"
+  "fields": {
+    "email": {
+      "label": "E-mail",
+      "placeholder": "seu@email.com",
+      "a11y": "Campo de e-mail"
     },
-    "register": { "title": "Criar conta", "name": "Nome", "cta": "Cadastrar" },
-    "forgot": { "title": "Recuperar senha", "cta": "Enviar link" }
+    "password": {
+      "label": "Senha",
+      "placeholder": "••••••••",
+      "a11y": "Campo de senha",
+      "show": "Mostrar senha",
+      "hide": "Ocultar senha"
+    }
   },
-  "home": {
-    "upcoming": "Próximas transmissões",
-    "news": "Notícias",
-    "highlights": "Highlights"
+  "actions": {
+    "sign_in": "Entrar",
+    "signing_in": "Entrando..."
   },
-  "events": { "title": "Agenda" },
-  "settings": {
-    "title": "Configurações",
-    "language": "Idioma",
-    "language_help": "Escolha o idioma do aplicativo"
+  "links": {
+    "forgot_password": "Esqueceu a senha?",
+    "no_account": "Ainda não tem uma conta?",
+    "register": "Cadastre-se"
   },
-  "generic": { "share": "Compartilhar", "watch": "Assistir" }
+  "separator": {
+    "or": "Ou"
+  },
+  "alerts": {
+    "login_error_title": "Erro ao entrar",
+    "try_again": "Tente novamente."
+  },
+  "toast": {
+    "login_success_title": "Sucesso!",
+    "login_success_desc": "Login realizado com sucesso."
+  },
+  "oauth": {
+    "google": "Entrar com Google",
+    "facebook": "Entrar com Facebook",
+    "apple": "Entrar com Apple",
+    "integrate_google": "Integrar com Supabase OAuth Google",
+    "integrate_facebook": "Integrar com Supabase OAuth Facebook",
+    "integrate_apple": "Integrar com OAuth Apple"
+  },
+  "a11y": {
+    "logo": "Logo Cavalo Crioulo"
+  },
+  "errors": {
+    "email_required": "Informe seu e-mail",
+    "email_invalid": "E-mail inválido",
+    "password_min": "A senha deve ter pelo menos 6 caracteres"
+  }
 }

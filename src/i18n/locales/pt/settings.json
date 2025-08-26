@@ -1,0 +1,43 @@
+{
+  "title": "Configurações",
+  "menus": {
+    "personal_data": "Dados pessoais",
+    "language": "Língua",
+    "privacy_policy": "Política de privacidade",
+    "terms_of_use": "Termos de uso",
+    "delete_account": "Excluir conta",
+    "logout": "Sair"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "Inglês",
+    "es": "Espanhol"
+  },
+  "dialogs": {
+    "choose_language": "Escolha o idioma",
+    "cancel": "Cancelar",
+    "delete_title": "Excluir conta",
+    "delete_desc": "Tem certeza? Essa ação é irreversível e todos os seus dados serão removidos.",
+    "delete_confirm": "Excluir",
+    "delete_cancel": "Cancelar",
+    "delete_done": "Solicitação registrada. Nossa equipe concluirá o processo."
+  },
+  "personal_data": {
+    "avatar": "Alterar foto",
+    "name": "Nome completo",
+    "age": "Idade",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "bio": "Descrição",
+    "save": "Salvar",
+    "saving": "Salvando..."
+  },
+  "privacy_policy": {
+    "title": "Política de Privacidade",
+    "content": "Coletamos dados mínimos necessários para oferecer a melhor experiência em eventos. Utilizamos essas informações para autenticação, personalização de conteúdo e segurança. Não vendemos seus dados. Esta política pode ser atualizada."
+  },
+  "terms_of_use": {
+    "title": "Termos de Uso",
+    "content": "Ao usar este aplicativo, você concorda em fornecer informações verdadeiras, respeitar direitos autorais e não utilizá-lo para fins ilícitos. O uso contínuo implica aceite dos termos vigentes."
+  }
+}

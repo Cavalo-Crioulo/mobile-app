@@ -10,10 +10,10 @@ type ScreenProps = {
   barStyle?: "light" | "dark" | "auto";
 };
 
-export function Screen({ children, style, barStyle = "light" }: ScreenProps) {
+export function Screen({ children, style, barStyle = "auto" }: ScreenProps) {
   return (
     <SafeAreaView
-      style={[{ flex: 1, backgroundColor: "white" }, style]}
+      style={[{ flex: 1, backgroundColor: "#101010" }, style]}
       edges={["top", "left", "right"]}
     >
       <StatusBar style={barStyle} />

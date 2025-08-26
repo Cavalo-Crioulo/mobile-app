@@ -1,0 +1,43 @@
+{
+  "title": "Settings",
+  "menus": {
+    "personal_data": "Personal data",
+    "language": "Language",
+    "privacy_policy": "Privacy policy",
+    "terms_of_use": "Terms of use",
+    "delete_account": "Delete account",
+    "logout": "Logout"
+  },
+  "languages": {
+    "pt": "Portuguese",
+    "en": "English",
+    "es": "Spanish"
+  },
+  "dialogs": {
+    "choose_language": "Choose language",
+    "cancel": "Cancel",
+    "delete_title": "Delete account",
+    "delete_desc": "Are you sure? This action is irreversible and all your data will be removed.",
+    "delete_confirm": "Delete",
+    "delete_cancel": "Cancel",
+    "delete_done": "Request registered. Our team will complete the process."
+  },
+  "personal_data": {
+    "avatar": "Change photo",
+    "name": "Full name",
+    "age": "Age",
+    "email": "Email",
+    "phone": "Phone",
+    "bio": "Description",
+    "save": "Save",
+    "saving": "Saving..."
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "content": "We collect minimal data to provide the best event experience. We use this information for authentication, personalization, and security. We do not sell your data. This policy may be updated."
+  },
+  "terms_of_use": {
+    "title": "Terms of Use",
+    "content": "By using this app, you agree to provide truthful information, respect copyrights, and not use it for illegal purposes. Continued use implies acceptance of the current terms."
+  }
+}
